@@ -1,0 +1,16 @@
+{
+  "name": "codeX",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "game": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3"
+  }
+}
