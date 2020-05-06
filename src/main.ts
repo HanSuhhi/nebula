@@ -1,9 +1,9 @@
 import Modules from './modules/modules';
 
 class Game extends Modules{
-  public start(): number {
-    return this.map.showLength();
+  public start(): void {
+    console.log("游戏加载完成!");
   }
 }
 
-console.log(new Game().start());
+new Game().start();
