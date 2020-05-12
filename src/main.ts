@@ -1,9 +1,5 @@
-import Modules from './modules/modules';
+import Modules from "./view/modules";
 
-class Game extends Modules{
-  public start(): void {
-    console.log("游戏加载完成!");
-  }
-}
+class Game extends Modules {}
 
-new Game().start();
+new Game();

@@ -1,17 +1,18 @@
 {
-  "name": "codeX",
+  "name": "nubule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "game": "webpack-dev-server"
+    "serve": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "html-webpack-plugin": "^4.3.0",
+    "raw-loader": "^4.0.1",
     "ts-loader": "^7.0.2",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",

@@ -1,0 +1,8 @@
+div .nub -- Nubule 
+  input *if="false" -- {{author}};
+
+style: {
+  const nub = {
+    color: red;
+  }
+}
